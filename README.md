@@ -24,9 +24,10 @@
 <p align="center">Em desenvolvimento...</p>
 
 ## Funcionalidades
-- [x] Cadastro de usuário
-- [x] Cadastro de curso para usuário
-- [ ] Cadastro de curso
+- [x] CRUD de usuário
+- [x] CRUD de curso para usuário
+- [ ] CRUD de curso
+- [ ] Integração com BD
 
 ## Requisitos
 
