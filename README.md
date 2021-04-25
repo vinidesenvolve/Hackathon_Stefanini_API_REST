@@ -1,26 +1,27 @@
-# Hackathon_Stefanini_API_RESTful
+# RESTful API
 
 ## Descrição
 <p align="center">
-  API desenvolvida durante os estudos do Hackathon Dev da Stefanini seguindo modelo de arquitetura REST. Essa API não conta com banco de dados ainda, sendo que os dados são armazenados em memória.
+  API desenvolvida durante os estudos do Hackathon Dev da Stefanini seguindo modelo de arquitetura REST. 
 </p>
 <p align="center">
   O objetivo do estudo é apresentar o básico da utilização e configuração de rotas e middlewares.
 <p>
 
 ## Índice
-<p align="center">
- <a href="#status">Status</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licença">Licença</a> • 
- <a href="#autor">Autor</a>
+<p align="center"> - 
+ <a href="#status">Status</a> - 
+ <a href="#requisistos">Requisitos</a> - 
+ <a href="#executando">Executando</a> - 
+ <a href="#testes">Testes</a> - 
+ <a href="#tecnologias">Tecnologias</a> - 
+ <a href="#autor">Autor</a> - 
+ <a href="#licença">Licença</a> - 
 </p>
 
 ## Status 
 
-<p align="center">Em desenvolvimento</p>
+<p align="center">Em desenvolvimento...</p>
 
 ## Funcionalidades
 - [x] Cadastro de usuário
@@ -30,6 +31,7 @@
 ## Requisitos
 
 ### Ferramentas necessárias
+
 Instale essas ferramnetas em sua máquina (caso não as tenha)
 
 - [Git](https://git-scm.com)
@@ -38,36 +40,42 @@ Instale essas ferramnetas em sua máquina (caso não as tenha)
 - [VSCode](https://code.visualstudio.com/) (Opcional)
 
 ### Clone o repositório
+
 No terminal ou prompt de comando 
 
 $ git clone <https://github.com/vinidesenvolve/Hackathon_Stefanini_API_REST>
 
 ### Configure o ambiente
+
 Acesse a pasta do projeto
 
 $ cd HackatonStefanini
 
 Inicie o NPM
+
 $ npm init
 
 Instale as dependências 
+
 $ npm install express
 
-## Executando a API
+## Executando
 
 ### Suba o servidor
+
 Execute a aplicação 
+
 $ node index.js
 
 //Server is running at 8000
 
-## Testes no Insomnia
+## Testes
 
 ### CRUD usuário
 
 POST - http://localhost:8000/user
 {
-	"name":"Cobol"
+	"name":"Cobolson"
 }
 
 GET - http://localhost:8000/user
@@ -97,15 +105,15 @@ PUT - http://localhost:8000/user/:id/course/:courseId
 
 DELETE - http://localhost:8000/user/:id/course/:courseId
 
-## Tecnologias utilizadas
+## Tecnologias
 - [Node.js](https://nodejs.org/en/)
 - [Javascript](https://www.javascript.com/)
 - [Express](https://expressjs.com/)
 
 ## Autor
- <a href="https://github.com/vinidesenvolve">Vinicius Alves Rodrigues</a>
- <a href="https://www.linkedin.com/in/vinidesenvolve/">Likedin</a> 
- <a href="vinidesenvolve@gmail.com">email</a>
+<p> <a href="https://github.com/vinidesenvolve">Vinicius Alves Rodrigues</a> </p>
+<p> <a href="https://www.linkedin.com/in/vinidesenvolve/">Likedin</a> </p>
+<p> <a href="vinidesenvolve@gmail.com">Email</a> </p>
 
 ## Licença
 <p align="center">
